@@ -1,0 +1,110 @@
+# ==============================================================================
+# SECRETS & ENVIRONMENT VARIABLES (CRITICAL)
+# ==============================================================================
+.env
+.env.*
+*.env
+!.env.example
+
+# ==============================================================================
+# PYTHON & VIRTUAL ENVIRONMENTS
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging / wheels
+build/
+dist/
+*.egg-info/
+*.whl
+*.egg
+
+# ==============================================================================
+# LOGS & TEMPORARY FILES
+# ==============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+scratch/
+
+# Audio cache / recorded audio dumps (if any)
+*.wav
+*.mp3
+*.ogg
+!sample*.wav
+
+# ==============================================================================
+# IDE & OS ARTIFACTS
+# ==============================================================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains / PyCharm
+.idea/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.egg-info/
+*.whl
+*.egg
+
+# ==============================================================================
+# LOGS & TEMPORARY FILES
+# ==============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+scratch/
+
+# Audio cache / recorded audio dumps (if any)
+*.wav
+*.mp3
+*.ogg
+!sample*.wav
+
+# ==============================================================================
+# IDE & OS ARTIFACTS
+# ==============================================================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains / PyCharm
+.idea/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
